@@ -1,0 +1,20 @@
+# server
+server:
+  port: 8030
+  host: localhost
+
+# database
+spring:
+   datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     url: jdbc:mysql://localhost:3306/url?serverTimezone=UTC&characterEncoding=UTF-8
+     username: root
+     password: smilegate00#
+
+   jpa:
+     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+     open-in-view: false
+     show-sql: false
+     hibernate:
+       format_sql: true
+       ddl-auto: update

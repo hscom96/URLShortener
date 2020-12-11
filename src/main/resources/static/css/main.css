@@ -1,0 +1,29 @@
+#container {
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    width: 60%;
+    height: 50%;
+    background-color: lightpink;
+    text-align: center;
+    border-radius: 40px;
+}
+
+#url-input {
+    position: absolute;
+    left: 23%;
+    width: 60%;
+}
+
+#url-button {
+    position: absolute;
+    left: 23%;
+    top: 25%;
+}
+
+#result {
+    position: absolute;
+    left: 23%;
+    top: 45%;
+    font-weight: bold;
+}

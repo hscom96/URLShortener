@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>URL Shortner</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/main.js" type="text/javascript" charset="UTF-8"></script>
+
+<body>
+<div id="container">
+    <h1>URL Shortener</h1>
+    <div>
+        <input type="text" class="form-control" id="url-input" placeholder="단축할 url 입력" name="originURL">
+        <button type="button" class="btn btn-primary btn-lg" id="url-button">URL 변환</button>
+    </div>
+    <div id="result">
+        <div>결과</div>
+        <input class="form-control" id="disabledInput" type="text" placeholder="단축된 URL 결과" style="width: 30em" disabled>
+    </div>
+</div>
+</body>
+</html>
