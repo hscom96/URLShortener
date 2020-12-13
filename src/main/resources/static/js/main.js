@@ -12,11 +12,18 @@ ShortenURLUnit.prototype = {
 
         var httpRequest = new XMLHttpRequest();
         urlButton.addEventListener('click', function(){
-            httpRequest.open("POST", "/short?originURL="+urlText.value,false);
-            httpRequest.send();
-            result.value = "hi";
-            if (httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200 ) {
+            httpRequest.onload = function() {
+                if (httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200 ) {
+                    let urlShorten = JSON.parse(httpRequest.responseText);
+                    result.value = urlShorten.shortURL;
+                }
             }
+            let data = {
+                originURL : encodeURI(urlText.value)
+            }
+            httpRequest.open("POST", "/short", true);
+            httpRequest.setRequestHeader('Content-Type', 'application/json');
+            httpRequest.send(JSON.stringify(data));
         })
     }
 }

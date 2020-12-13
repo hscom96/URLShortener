@@ -16,6 +16,7 @@ public class URLShorten extends TimeBaseEntity {
     @Id
     private int id;
 
+    @Lob
     @Column(nullable = false)
     private String originURL;
 
