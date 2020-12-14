@@ -7,13 +7,17 @@
 
 </br>
 
+## :orange_book: 개발일지
+https://lovecode.tistory.com/120
+
+</br>
+
 ## 🧐 What is 'URL Shortener' Service? 
 - URL 입력 폼 제공
 - 단축 후 결과 출력
 - 동일한 URL을 입력 할 경우 항상 동일한 shortening 결과 값이 나와야 함
 - shortening 의 결과 값은 8문자 이내로 생성
 - 브라우저에서 shortening URL을 입력하면 원래 URL로 리다이렉트
-
 
 </br>
 
