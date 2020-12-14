@@ -21,6 +21,7 @@
 총 1인
 -  김현수 : 프론트, 백엔드 
 
+
 </br>
 
 ## :closed_book: 기술
@@ -35,6 +36,11 @@
 - JavaScript
 
 </br>
+
+## 개발 환경
+- jdk 11
+- mysql 8.0.22
+
 </br>
 
 ## 📸 ScreenShots
