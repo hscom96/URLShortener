@@ -1,13 +1,12 @@
 package com.soulmates.urlshortener.feature.urlshorten.dto;
 
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.validator.constraints.URL;
 
 import javax.validation.constraints.NotEmpty;
 
-@RequiredArgsConstructor
+@RequiredArgsConstructor @AllArgsConstructor
+@Builder
 @Setter @Getter
 public class ShortenURLRequest {
     @URL(message = "not correct url format")
