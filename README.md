@@ -60,16 +60,17 @@
 
 ## Rest API
 
-1) URL 단축 API 
-- POST 
-- Request url: http:localhost:8030/short
-- Request Body example (JSON):
+- URL 단축 API 
+1) POST 
+2) Request url
+http:localhost:8030/short
+3) Request Body example (JSON):
 ```json
 { 
 "originURL" : "https://stackoverflow.com/questions/45739517/jpa-repository-lob-column"
 }
 ```
-- Response example (JSON) :
+4) Response example (JSON) :
 ```json
 {
     "originURL": "https://stackoverflow.com/questions/45739517/jpa-repository-lob-column",
@@ -78,6 +79,7 @@
 }
 ```
 
-2) 단축URL Redirect
-- GET
-- Request url: http://localhost:8030/short/{shortURL}
+- 단축URL Redirect
+1) GET 
+2) Request url
+http://localhost:8030/short/{shortURL}
