@@ -62,7 +62,7 @@
 
 - URL 단축 API 
 1) POST 
-2) Request url
+2) Request url  
 http:localhost:8030/short
 3) Request Body example (JSON):
 ```json
@@ -81,5 +81,5 @@ http:localhost:8030/short
 
 - 단축URL Redirect
 1) GET 
-2) Request url
+2) Request url  
 http://localhost:8030/short/{shortURL}
