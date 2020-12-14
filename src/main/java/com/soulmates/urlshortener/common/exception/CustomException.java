@@ -3,7 +3,6 @@ package com.soulmates.urlshortener.common.exception;
 import com.soulmates.urlshortener.common.constants.ErrorEnum;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
-import org.springframework.validation.Errors;
 
 @Getter
 public class CustomException extends RuntimeException{
