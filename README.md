@@ -83,7 +83,10 @@ http:localhost:8030/short
 }
 ```
 
+</br>
+
 - 단축URL Redirect
+
 1) GET 
 2) Request url  
 http://localhost:8030/short/{shortURL}
